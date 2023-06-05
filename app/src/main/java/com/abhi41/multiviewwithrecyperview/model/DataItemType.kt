@@ -6,5 +6,6 @@ class DataItemType {
         const val LIST = 1
         const val GRID = 2
         const val SLIDER = 3
+        const val EXPANDABLE = 4
     }
 }

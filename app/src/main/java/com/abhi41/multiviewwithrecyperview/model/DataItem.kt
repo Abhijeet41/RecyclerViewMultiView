@@ -1,5 +1,6 @@
 package com.abhi41.multiviewwithrecyperview.model
 
+import com.abhi41.multiviewwithrecyperview.request.ExpandableItem
 import com.abhi41.multiviewwithrecyperview.request.Item
 import com.abhi41.multiviewwithrecyperview.request.SliderItem
 
@@ -8,6 +9,7 @@ data class DataItem(val viewTye: Int) {
     var dataList: DataList? = null
     var dataGrid: DataGrid? = null
     var slider: DataSlider? = null
+    var expandable: ExpandableList? = null
     constructor(viewTye: Int, banner: Banner) : this(viewTye) {
         this.banner = banner
     }
@@ -20,6 +22,9 @@ data class DataItem(val viewTye: Int) {
     constructor(viewTye: Int,dataSlider: DataSlider): this(viewTye){
         this.slider = dataSlider
     }
+    constructor(viewTye: Int,expandableList: ExpandableList): this(viewTye){
+        this.expandable = expandableList
+    }
 
 }
 
@@ -28,3 +33,5 @@ data class Banner(val image: String)
 data class DataList(val list: ArrayList<Item>)
 data class DataGrid(val category: String?, val grid: String?, val list: ArrayList<Item>)
 data class DataSlider(val list: ArrayList<SliderItem>)
+
+data class ExpandableList(val list: ArrayList<ExpandableItem>,val grid: String?)

@@ -15,7 +15,9 @@ data class Data(
     @SerializedName("grid") var grid: String? = null,
     @SerializedName("category") var category: String? = null,
     @SerializedName("list") var list: ArrayList<Item> = arrayListOf(),
-    @SerializedName("slides") var slider: ArrayList<SliderItem> = arrayListOf()
+    @SerializedName("slides") var slider: ArrayList<SliderItem> = arrayListOf(),
+    @SerializedName("expandable") var expandable: ArrayList<ExpandableItem> = arrayListOf(),
+
 )
 
 data class Item(
@@ -32,4 +34,16 @@ data class Item(
 data class SliderItem(
     @SerializedName("image")
     val image: String? = null
+)
+
+data class ExpandableItem(
+    @SerializedName("id")
+    val id: Int,
+    @SerializedName("image")
+    val image: String? = null,
+    @SerializedName("name")
+    val name: String? = null,
+    @SerializedName("description")
+    val description: String? = null,
+    var isExpandable: Boolean = false
 )

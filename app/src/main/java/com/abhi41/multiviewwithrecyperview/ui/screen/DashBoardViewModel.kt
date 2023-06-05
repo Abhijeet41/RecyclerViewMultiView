@@ -12,6 +12,7 @@ import com.abhi41.multiviewwithrecyperview.model.DataItem
 import com.abhi41.multiviewwithrecyperview.model.DataItemType
 import com.abhi41.multiviewwithrecyperview.model.DataList
 import com.abhi41.multiviewwithrecyperview.model.DataSlider
+import com.abhi41.multiviewwithrecyperview.model.ExpandableList
 import com.abhi41.multiviewwithrecyperview.request.RequestData
 import com.abhi41.multiviewwithrecyperview.util.AppConstants
 import com.google.gson.Gson
@@ -59,6 +60,11 @@ class DashBoardViewModel(
                 AppConstants.typeDataList -> {
                     recyclerViewList.add(
                         DataItem(viewTye = DataItemType.LIST, DataList(list = data.list))
+                    )
+                }
+                AppConstants.typeExpandableRv ->{
+                    recyclerViewList.add(
+                        DataItem(viewTye = DataItemType.EXPANDABLE, ExpandableList(list = data.expandable, grid = data.grid))
                     )
                 }
                 else -> {

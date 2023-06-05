@@ -6,4 +6,5 @@ object AppConstants {
     const val typeDataList = "List"
     const val typeDataGrid = "Grid"
     const val typeDataSlider = "Slider"
+    const val typeExpandableRv = "Expandable"
 }

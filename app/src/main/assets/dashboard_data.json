@@ -5,6 +5,20 @@
       "image": "https://cdn.dmart.in/images/rwd/banners/hmpg/1may23-crsl-dmartgrocery-mum.jpg"
     },
     {
+      "type": "Slider",
+      "slides": [
+        {
+          "image": "https://www.jiomart.com/images/product/600x600/491278308/priya-fortified-with-vitamin-a-d-refined-sunflower-oil-1-l-product-images-o491278308-p491278308-0-202203170524.jpg"
+        },
+        {
+          "image": "https://www.jiomart.com/images/product/600x600/491504124/super-sarvottam-physically-refined-rice-bran-oil-1-l-product-images-o491504124-p491504124-0-202210041735.jpg"
+        },
+        {
+          "image": "https://www.jiomart.com/images/product/600x600/490012719/gemini-refined-sunflower-oil-1-l-product-images-o490012719-p490012719-0-202203151822.jpg"
+        }
+      ]
+    },
+    {
       "type": "List",
       "list": [
         {
@@ -24,6 +38,20 @@
           "name": "Gemini",
           "value": "VALUE",
           "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+      ]
+    },
+    {
+      "type": "Slider",
+      "slides": [
+        {
+          "image": "https://www.jiomart.com/images/product/600x600/491278308/priya-fortified-with-vitamin-a-d-refined-sunflower-oil-1-l-product-images-o491278308-p491278308-0-202203170524.jpg"
+        },
+        {
+          "image": "https://www.jiomart.com/images/product/600x600/491504124/super-sarvottam-physically-refined-rice-bran-oil-1-l-product-images-o491504124-p491504124-0-202210041735.jpg"
+        },
+        {
+          "image": "https://www.jiomart.com/images/product/600x600/490012719/gemini-refined-sunflower-oil-1-l-product-images-o490012719-p490012719-0-202203151822.jpg"
         }
       ]
     },
@@ -243,6 +271,67 @@
         },
         {
           "image": "https://www.jiomart.com/images/product/600x600/490012719/gemini-refined-sunflower-oil-1-l-product-images-o490012719-p490012719-0-202203151822.jpg"
+        }
+      ]
+    },{
+      "type": "Expandable",
+      "grid": "2",
+      "expandable": [
+        {
+          "id": 1,
+          "image": "https://www.jiomart.com/images/product/360x360/491946461/apple-mgn63hna-macbook-air-apple-m1-chip-8gb-256gb-ssd-macos-big-sur-retina-33-78-cm-13-3-inch-digital-o491946461-p590441594-0-202108122000.jpeg",
+          "name": "Apple MGN63HNA",
+          "description": "Our thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. Our most advanced Neural Engine for up to 9x faster machine learning. The longest battery life ever in a MacBook Air. And a silent, fanless design. This much power has never been this ready to go."
+        },
+        {
+          "id": 2,
+          "image": "https://www.jiomart.com/images/product/360x360/492850650/apple-mlxw3hna-macbook-air-apple-m2-chip-8gb-256gb-ssd-macos-monterey-liquid-retina-34-46-cm-13-6-inch-space-grey-digital-o492850650-p592242755-0-202206282208.jpeg",
+          "name": "Apple MLXW3HNA MacBook Air",
+          "description": "This Apple Macbook Air M2 image is for illustration purpose only. Actual image may vary.\n\n\nRedesigned around the next-generation M2 chip, MacBook Air is strikingly thin and brings exceptional speed and power efficiency within its durable all-aluminium enclosure. It's the ultra-fast, ultra-capable laptop that lets you work, play or create just about anything - anywhere.\n\n1.24 kg\n\nlight\n\n1.13 cm\n\nthin"
+        },
+        {
+          "id": 3,
+          "image": "https://www.jiomart.com/images/product/360x360/rvao3idxkr/msi-katana-gf66-12ucok-gaming-laptop-product-images-orvao3idxkr-p601415441-0-202305120620.jpg",
+          "name": "MSI Katana GF66 ",
+          "description": "Latest 12th Gen. Intel® Core™ i7 processor\nWindows 11 Home\nUp to latest GeForce RTX™ 3050 Laptop GPU 4GB GDDR6\n15.6” Full HD (1920x1080), 144 Hz Refresh Rate, IPS-Level panel\nThin bezel design\nExclusive Cooler Boost 5 Technology\nMSI Center with exclusive gaming mode\nMSI App Player for seamless gaming experience between mobile and PC\nHigh-Resolution Audio ready"
+        },
+        {
+          "id": 4,
+          "image": "https://www.jiomart.com/images/product/360x360/492849813/dell-inspiron-3511-laptop-11th-gen-intel-i3-1115g4-8gb-512gb-ssd-integrated-graphics-windows-11-mso-fhd-39-6-cm-15-6-inch-digital-o492849813-p591642293-0-202205272136.jpeg",
+          "name": "Dell Inspiron 3511",
+          "description": "Daily to-do’s, done\nThe speed you need: Featuring 10th Gen Intel Core i3 processor with 512GB HDD storage for a more responsive and quieter performance. Just your type: Get an expansive keyboard with a numeric keypad, 6.4% larger keycaps and a spacious touchpad that makes it easier to navigate your content"
+        },
+        {
+          "id": 5,
+          "image": "https://www.jiomart.com/images/product/360x360/492850644/asus-mb511ws-vivobook-16x-laptop-amd-ryzen-5-5600h-16-gb-512-gb-ssd-amd-radeon-vega-7-graphics-windows-11-mso-wuxga-40-64-cm-16-inch-digital-o492850644-p592293018-0-202206302046.jpeg",
+          "name": "Asus MB511WS VivoBook",
+          "description": "Efficient Processor\n\nIntegrated with the Ryzen processor, the ASUS VivoBook 16X Laptop ensures smooth performance, even while performing demanding tasks. This processor is designed to enhance power efficiency and reduce heat generation, making it ideal for extended use. Moreover, you can expect quick load times, seamless multitasking, and effortless video editing with this processor."
+        }, {
+          "id": 6,
+          "image": "https://www.jiomart.com/images/product/360x360/493178263/asus-hx041w-tuf-a17-gaming-laptop-amd-ryzen-5-4600h-8-gb-512-gb-4-gb-nvidia-geforce-gtx-1650-windows-11-home-fhd-43-94cm-17-3-inch-digital-o493178263-p594139905-0-202209282310.jpeg",
+          "name": "Asus HX041W TUF A17",
+          "description": "TAKE ON ANY CHALLENGE\n\nAlways ready for action, the TUF Gaming A17 excels at gaming, streaming, and everything in between. Up to AMD Ryzen 4600-H Series CPU to fly through multitasking and more. Gameplay graphics are smooth with the latest GeForce GTX 1650 GPU which reliably delivers high frame rates for a ton of modern games. A superfast NVMe PCIe SSD speeds up load times, while an open SSD slot makes it easy to add terabytes more space for all your games."
+        }, {
+          "id": 7,
+          "image": "https://www.jiomart.com/images/product/360x360/492575360/hp-15s-eq2144au-laptop-amd-ryzen-5-5500u-processor-8gb-512gb-ssd-amd-radeon-graphics-windows-11-mso-fhd-39-6-cm-15-6-inch-digital-o492575360-p591225898-0-202205022206.jpeg",
+          "name": "HP 15s-eq2144au Laptop",
+          "description": "Specifications\nGENERAL INFORMATION\nColour\tNatural Silver\nBrand\tHP\nLAPTOP DISPLAY\nAnti-glare Screen\tYes\nDisplay Type\tFull HD\nCache Memory\t8 MB"
+        },
+        {
+          "id": 8,
+          "image": "https://www.jiomart.com/images/product/360x360/492850221/dell-inspiron-5518-thin-light-laptop-11th-gen-intel-core-i5-11320h-8-gb-512-gb-ssd-2-gb-nvidia-geforec-mx450-windows-11-home-mso-fhd-39-62-cm-15-6-inch-digital-o492850221-p594247442-0-202210040055.jpeg",
+          "name": "Dell Inspiron 5518 Thin",
+          "description": "Dell Inspiron 5518 Thin & Light Laptop (11th Gen Intel Core i5-11320H/8 GB/512 GB SSD/2 GB/Nvidia GeForec MX450/Windows 11 Home/MSO/FHD), 39.62 cm (15.6 inch)"
+        },{
+          "id": 9,
+          "image": "https://www.jiomart.com/images/product/360x360/493664955/apple-macbook-pro-laptop-apple-m2-max-chip-32-gb-1-tb-ssd-macos-ventura-liquid-retina-35-97-cm-14-2-inch-digital-o493664955-p597885913-0-202301260956.jpeg",
+          "name": "Apple MacBook Pro Laptop",
+          "description": "Mover. Maker. Boundary breaker.\n\nSupercharged by M2 Pro or M2 Max, MacBook Pro takes its power and efficiency further than ever. It delivers exceptional performance whether it’s plugged in or not, and now has even longer battery life. Combined with a stunning Liquid Retina XDR display and all the ports you need — this is a pro laptop without equal."
+        },{
+          "id": 10,
+          "image": "https://www.jiomart.com/images/product/360x360/493178396/hp-pavilion-x360-convertible-laptop-11th-gen-intel-core-i3-1125g4-8-gb-256-gb-iris-xe-graphics-windows-11-home-mso-hd-35-56-cm-14-inch-digital-o493178396-p594349969-0-202210081655.jpeg",
+          "name": "HP Pavilion x360 ",
+          "description": "ADDITIONAL FEATURES\nFeatures\t\nIntel Integrated SoC Chipset Turbo Boost Technology IPS\n\nmicro-edge\n\nBrightView\n\n250 nits\n\n45% NTSC Display 41 Wh Li-ion Battery Fingerprint Reader Audio by B&O\n\nHP Audio Boost HP Wide Vision 720p HD camera with temporal noise reduction and integrated dual array digital microphones MediaTek Wi-Fi 6 MT7921 (2x2)"
         }
       ]
     }
