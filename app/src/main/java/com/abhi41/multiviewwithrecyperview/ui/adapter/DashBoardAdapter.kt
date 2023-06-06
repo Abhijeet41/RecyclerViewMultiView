@@ -1,6 +1,7 @@
 package com.abhi41.multiviewwithrecyperview.ui.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
@@ -11,7 +12,6 @@ import coil.load
 import com.abhi41.multiviewwithrecyperview.R
 import com.abhi41.multiviewwithrecyperview.databinding.ChildRecyclerViewBinding
 import com.abhi41.multiviewwithrecyperview.databinding.ItemBannerBinding
-import com.abhi41.multiviewwithrecyperview.databinding.ItemExpandableBinding
 import com.abhi41.multiviewwithrecyperview.databinding.LayoutExpandableRvBinding
 import com.abhi41.multiviewwithrecyperview.databinding.LayoutSliderBinding
 import com.abhi41.multiviewwithrecyperview.model.Banner
@@ -23,6 +23,7 @@ import com.abhi41.multiviewwithrecyperview.model.DataSlider
 import com.abhi41.multiviewwithrecyperview.model.ExpandableList
 import com.abhi41.multiviewwithrecyperview.request.Data
 import com.abhi41.multiviewwithrecyperview.request.ExpandableItem
+import com.abhi41.multiviewwithrecyperview.ui.screen.AmazonSettingScreen
 import com.google.android.material.tabs.TabLayoutMediator
 
 class DashBoardAdapter(
@@ -40,6 +41,13 @@ class DashBoardAdapter(
             binding.bannerIv.load(banner.image) {
                 crossfade(600)
                 placeholder(R.drawable.place_holder)
+            }
+            binding.bannerIv.setOnClickListener {
+                val intent = Intent(context,AmazonSettingScreen::class.java).apply {
+                    flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                }
+                context.startActivity(intent)
+
             }
         }
     }

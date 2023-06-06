@@ -32,7 +32,6 @@ class ExpandableAdapter(
     }
 
     override fun getItemId(position: Int): Long {
-
         return expandableList[position].id.toLong()
     }
 
