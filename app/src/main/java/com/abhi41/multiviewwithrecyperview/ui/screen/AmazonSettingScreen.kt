@@ -69,7 +69,7 @@ class AmazonSettingScreen : AppCompatActivity() {
 
         parentItemList.add(ParentAmazonSetting(parentContent7, parentContent8))
 
-        val adapter = ParentAccessoriesAdapter(parentItemList)
+        val adapter = ParentAccessoriesAdapter(applicationContext,parentItemList)
         binding.rvSettingMain.adapter = adapter
     }
 }
